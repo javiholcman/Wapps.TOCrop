@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CE661351D1431D900EEC89A /* TOCropp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CE661341D1431D900EEC89A /* TOCropp.h */; };
+		8CE661371D1431D900EEC89A /* TOCropp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE661361D1431D900EEC89A /* TOCropp.m */; };
+		8CE661511D14320000EEC89A /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6613E1D14320000EEC89A /* TOActivityCroppedImageProvider.m */; };
+		8CE661521D14320000EEC89A /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE661401D14320000EEC89A /* TOCropOverlayView.m */; };
+		8CE661531D14320000EEC89A /* TOCropp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE661421D14320000EEC89A /* TOCropp.m */; };
+		8CE661541D14320000EEC89A /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE661441D14320000EEC89A /* TOCroppedImageAttributes.m */; };
+		8CE661551D14320000EEC89A /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE661461D14320000EEC89A /* TOCropScrollView.m */; };
+		8CE661561D14320000EEC89A /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE661481D14320000EEC89A /* TOCropToolbar.m */; };
+		8CE661571D14320000EEC89A /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6614A1D14320000EEC89A /* TOCropView.m */; };
+		8CE661581D14320000EEC89A /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6614C1D14320000EEC89A /* TOCropViewController.m */; };
+		8CE661591D14320000EEC89A /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6614E1D14320000EEC89A /* TOCropViewControllerTransitioning.m */; };
+		8CE6615A1D14320000EEC89A /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE661501D14320000EEC89A /* UIImage+CropRotate.m */; };
+		8CE6615B1D14324C00EEC89A /* TOCropViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CE6614B1D14320000EEC89A /* TOCropViewController.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8CE6612F1D1431D900EEC89A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				8CE6615B1D14324C00EEC89A /* TOCropViewController.h in CopyFiles */,
+				8CE661351D1431D900EEC89A /* TOCropp.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8CE661311D1431D900EEC89A /* libTOCrop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTOCrop.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE661341D1431D900EEC89A /* TOCropp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TOCropp.h; sourceTree = "<group>"; };
+		8CE661361D1431D900EEC89A /* TOCropp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOCropp.m; sourceTree = "<group>"; };
+		8CE6613D1D14320000EEC89A /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
+		8CE6613E1D14320000EEC89A /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
+		8CE6613F1D14320000EEC89A /* TOCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropOverlayView.h; sourceTree = "<group>"; };
+		8CE661401D14320000EEC89A /* TOCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropOverlayView.m; sourceTree = "<group>"; };
+		8CE661411D14320000EEC89A /* TOCropp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropp.h; sourceTree = "<group>"; };
+		8CE661421D14320000EEC89A /* TOCropp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropp.m; sourceTree = "<group>"; };
+		8CE661431D14320000EEC89A /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCroppedImageAttributes.h; sourceTree = "<group>"; };
+		8CE661441D14320000EEC89A /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCroppedImageAttributes.m; sourceTree = "<group>"; };
+		8CE661451D14320000EEC89A /* TOCropScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
+		8CE661461D14320000EEC89A /* TOCropScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropScrollView.m; sourceTree = "<group>"; };
+		8CE661471D14320000EEC89A /* TOCropToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropToolbar.h; sourceTree = "<group>"; };
+		8CE661481D14320000EEC89A /* TOCropToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropToolbar.m; sourceTree = "<group>"; };
+		8CE661491D14320000EEC89A /* TOCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropView.h; sourceTree = "<group>"; };
+		8CE6614A1D14320000EEC89A /* TOCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropView.m; sourceTree = "<group>"; };
+		8CE6614B1D14320000EEC89A /* TOCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewController.h; sourceTree = "<group>"; };
+		8CE6614C1D14320000EEC89A /* TOCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewController.m; sourceTree = "<group>"; };
+		8CE6614D1D14320000EEC89A /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		8CE6614E1D14320000EEC89A /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
+		8CE6614F1D14320000EEC89A /* UIImage+CropRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		8CE661501D14320000EEC89A /* UIImage+CropRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CE6612E1D1431D900EEC89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CE661281D1431D900EEC89A = {
+			isa = PBXGroup;
+			children = (
+				8CE661331D1431D900EEC89A /* TOCrop */,
+				8CE661321D1431D900EEC89A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CE661321D1431D900EEC89A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CE661311D1431D900EEC89A /* libTOCrop.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CE661331D1431D900EEC89A /* TOCrop */ = {
+			isa = PBXGroup;
+			children = (
+				8CE6613D1D14320000EEC89A /* TOActivityCroppedImageProvider.h */,
+				8CE6613E1D14320000EEC89A /* TOActivityCroppedImageProvider.m */,
+				8CE6613F1D14320000EEC89A /* TOCropOverlayView.h */,
+				8CE661401D14320000EEC89A /* TOCropOverlayView.m */,
+				8CE661411D14320000EEC89A /* TOCropp.h */,
+				8CE661421D14320000EEC89A /* TOCropp.m */,
+				8CE661431D14320000EEC89A /* TOCroppedImageAttributes.h */,
+				8CE661441D14320000EEC89A /* TOCroppedImageAttributes.m */,
+				8CE661451D14320000EEC89A /* TOCropScrollView.h */,
+				8CE661461D14320000EEC89A /* TOCropScrollView.m */,
+				8CE661471D14320000EEC89A /* TOCropToolbar.h */,
+				8CE661481D14320000EEC89A /* TOCropToolbar.m */,
+				8CE661491D14320000EEC89A /* TOCropView.h */,
+				8CE6614A1D14320000EEC89A /* TOCropView.m */,
+				8CE6614B1D14320000EEC89A /* TOCropViewController.h */,
+				8CE6614C1D14320000EEC89A /* TOCropViewController.m */,
+				8CE6614D1D14320000EEC89A /* TOCropViewControllerTransitioning.h */,
+				8CE6614E1D14320000EEC89A /* TOCropViewControllerTransitioning.m */,
+				8CE6614F1D14320000EEC89A /* UIImage+CropRotate.h */,
+				8CE661501D14320000EEC89A /* UIImage+CropRotate.m */,
+				8CE661341D1431D900EEC89A /* TOCropp.h */,
+				8CE661361D1431D900EEC89A /* TOCropp.m */,
+			);
+			name = TOCrop;
+			path = TOCropp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CE661301D1431D900EEC89A /* TOCrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE6613A1D1431D900EEC89A /* Build configuration list for PBXNativeTarget "TOCrop" */;
+			buildPhases = (
+				8CE6612D1D1431D900EEC89A /* Sources */,
+				8CE6612E1D1431D900EEC89A /* Frameworks */,
+				8CE6612F1D1431D900EEC89A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TOCrop;
+			productName = TOCropp;
+			productReference = 8CE661311D1431D900EEC89A /* libTOCrop.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CE661291D1431D900EEC89A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Wapps;
+				TargetAttributes = {
+					8CE661301D1431D900EEC89A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 8CE6612C1D1431D900EEC89A /* Build configuration list for PBXProject "TOCrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8CE661281D1431D900EEC89A;
+			productRefGroup = 8CE661321D1431D900EEC89A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CE661301D1431D900EEC89A /* TOCrop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CE6612D1D1431D900EEC89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE661541D14320000EEC89A /* TOCroppedImageAttributes.m in Sources */,
+				8CE661571D14320000EEC89A /* TOCropView.m in Sources */,
+				8CE661511D14320000EEC89A /* TOActivityCroppedImageProvider.m in Sources */,
+				8CE661591D14320000EEC89A /* TOCropViewControllerTransitioning.m in Sources */,
+				8CE661551D14320000EEC89A /* TOCropScrollView.m in Sources */,
+				8CE661371D1431D900EEC89A /* TOCropp.m in Sources */,
+				8CE661521D14320000EEC89A /* TOCropOverlayView.m in Sources */,
+				8CE661561D14320000EEC89A /* TOCropToolbar.m in Sources */,
+				8CE661531D14320000EEC89A /* TOCropp.m in Sources */,
+				8CE661581D14320000EEC89A /* TOCropViewController.m in Sources */,
+				8CE6615A1D14320000EEC89A /* UIImage+CropRotate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8CE661381D1431D900EEC89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos9.3;
+			};
+			name = Debug;
+		};
+		8CE661391D1431D900EEC89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CE6613B1D1431D900EEC89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TOCrop;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8CE6613C1D1431D900EEC89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TOCrop;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CE6612C1D1431D900EEC89A /* Build configuration list for PBXProject "TOCrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE661381D1431D900EEC89A /* Debug */,
+				8CE661391D1431D900EEC89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE6613A1D1431D900EEC89A /* Build configuration list for PBXNativeTarget "TOCrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE6613B1D1431D900EEC89A /* Debug */,
+				8CE6613C1D1431D900EEC89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CE661291D1431D900EEC89A /* Project object */;
+}
