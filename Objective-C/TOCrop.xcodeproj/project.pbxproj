@@ -11,7 +11,6 @@
 		8CE661371D1431D900EEC89A /* TOCropp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE661361D1431D900EEC89A /* TOCropp.m */; };
 		8CE661511D14320000EEC89A /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6613E1D14320000EEC89A /* TOActivityCroppedImageProvider.m */; };
 		8CE661521D14320000EEC89A /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE661401D14320000EEC89A /* TOCropOverlayView.m */; };
-		8CE661531D14320000EEC89A /* TOCropp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE661421D14320000EEC89A /* TOCropp.m */; };
 		8CE661541D14320000EEC89A /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE661441D14320000EEC89A /* TOCroppedImageAttributes.m */; };
 		8CE661551D14320000EEC89A /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE661461D14320000EEC89A /* TOCropScrollView.m */; };
 		8CE661561D14320000EEC89A /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE661481D14320000EEC89A /* TOCropToolbar.m */; };
@@ -19,7 +18,6 @@
 		8CE661581D14320000EEC89A /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6614C1D14320000EEC89A /* TOCropViewController.m */; };
 		8CE661591D14320000EEC89A /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6614E1D14320000EEC89A /* TOCropViewControllerTransitioning.m */; };
 		8CE6615A1D14320000EEC89A /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE661501D14320000EEC89A /* UIImage+CropRotate.m */; };
-		8CE6615B1D14324C00EEC89A /* TOCropViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CE6614B1D14320000EEC89A /* TOCropViewController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +27,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				8CE6615B1D14324C00EEC89A /* TOCropViewController.h in CopyFiles */,
 				8CE661351D1431D900EEC89A /* TOCropp.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,7 +180,6 @@
 				8CE661371D1431D900EEC89A /* TOCropp.m in Sources */,
 				8CE661521D14320000EEC89A /* TOCropOverlayView.m in Sources */,
 				8CE661561D14320000EEC89A /* TOCropToolbar.m in Sources */,
-				8CE661531D14320000EEC89A /* TOCropp.m in Sources */,
 				8CE661581D14320000EEC89A /* TOCropViewController.m in Sources */,
 				8CE6615A1D14320000EEC89A /* UIImage+CropRotate.m in Sources */,
 			);

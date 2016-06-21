@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata minClientVersion="2.8.3">
+		<id>Wapps.TOCrop</id>
+		<version>0.1.1</version>
+		<title>TOCrop Plugin for Xamarin.iOS</title>
+		<authors>Javier Holcman</authors>
+		<owners>Javier Holcman</owners>
+		<iconUrl>http://xamarinos.com/img/favicon.ico</iconUrl>
+    <licenseUrl>https://github.com/TimOliver/TOCropViewController/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/javiholcman/wapps.TOCrop</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+      Photo Editor with copping, rotate, zoom and more for Xamarin.iOS
+    </description>
+		<summary>TOCropViewController plugin for Xamarin.iOS.</summary>
+		<tags>xamarin, plugin, plugin for xamarin.ios, ios, xamarin, ios, crop, photo editor, rotate, image</tags>
+		<dependencies>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="TOCropBinding/Binding/bin/Release/TOCropBinding.dll" target="lib\Xamarin.iOS" />
+	</files>
+</package>
