@@ -1,3 +1,6 @@
+THIS LIBRARY IS NOT BEING MAINTENED ANY MORE. PLEASE, REFER TO JAMES MONTEMAGNO'S LIBRARY.
+
+
 # TOCropViewController for Xamarin.iOS
 
 <p align="center">
